@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+body h1, h2 {
+    color: darkslategrey;
+}
+
+.parts {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.head {
+    background-color: lightblue;
+
+}
+
+.networks {
+    background-color: lightpink;
+}
+
+.hobby {
+    background-color: lightgreen;
+}
+
+.work {
+    background-color: plum;
+}
+
+.com {
+    background-color: khaki;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.all {
+    max-width: 70%;
+    margin: auto;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: darkgrey;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    font-size: medium;
+    width: 110px;
+
+}
+
+.btn:hover {
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.hobby ul li {
+    padding-bottom: 5px;
+    list-style: circle;
+}
+
+.work table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 0px 0px 10px 10px;
+}
+
+.work th {
+    background-color: rgba(138, 43, 226, .5)
+
+}
+
+.work tr, td, th {
+    text-align: center;
+    border: 2px solid purple;
+}
+
+.work td:nth-child(1) {
+    background-color: orchid;
+    
+}
+
+.com h2 {
+    text-align: center;
+}
+
+.block .group {
+    width: 49%;
+    display: inline-block;
+}
+
+.group textarea {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.info {
+    display: flex;
+}
+
+.info p {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+@media (max-width: 670px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 570px) {
+    .block .group {
+        display: block;
+        margin-top: 20px;
+    }
+}
+
